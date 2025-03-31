@@ -1,0 +1,40 @@
+#portfolio{
+    overflow: hidden;
+    width: 100vw;
+    margin-top: 5rem;
+}
+.data{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.data p{
+    margin: 0 3rem;
+}
+.heading{
+    color: rgb(252, 104, 104);
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+.sub-heading{
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+.work-description{
+    font-size: 1rem;
+}
+.s_skills{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.skill_name{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 4rem;
+    margin: 0 6rem;
+}
+@media (max-width: 450px){
+    .skill_name{
+        display: flex;
+        flex-direction: column;
+    }
+}

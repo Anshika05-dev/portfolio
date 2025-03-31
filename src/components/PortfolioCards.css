@@ -1,0 +1,76 @@
+.portfoliocard{
+    position: relative;
+    height: 27rem;
+    padding: 5rem;
+    margin: 4rem 10rem;
+    border-radius: 4rem;
+    display: flex;
+  align-items: center;
+  background-blend-mode: overlay;
+}
+.app{
+    font-size: 2rem;
+    color: rgb(249, 141, 141);
+}
+.app_description{
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: white;
+}
+.pcontent{
+    width: 25rem;
+    text-align:justify;
+    float: right;
+}
+.link{
+    font-size: 1.25rem;
+    color: rgb(249, 141, 141);
+    margin-top: 0.2rem;
+}
+
+.content-left {
+    justify-content: flex-start;
+    text-align: left;
+  }
+  
+  .content-right {
+    justify-content: flex-end;
+    text-align: right;
+  }
+  @media(max-width:1200px){
+    .portfoliocard{
+        margin: 2rem auto;
+        width: 85vw;
+    }
+}
+@media (max-width: 450px) {
+    .portfoliocard {
+      height: auto; 
+      padding: 2rem; 
+      margin: 1rem;
+      border-radius: 2rem;
+    }
+    
+    .pcontent {
+      width: 100%; 
+      font-size: 0.875rem; 
+      text-align: center; 
+      overflow-wrap: break-word; 
+      word-wrap: break-word; 
+    }
+    
+    .app {
+        color: rgb(248, 81, 81);
+      font-size: 1.5rem; 
+    }
+    
+    .app_description {
+      font-size: 1rem; 
+    }
+    
+    .link {
+      font-size: 1rem; 
+      color: rgb(248, 81, 81);
+    }
+  }
+  

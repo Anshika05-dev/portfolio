@@ -1,0 +1,11 @@
+.top{
+    margin-bottom: 1rem;
+    /* border-bottom: 0.1rem solid white; */
+}
+.top h4{
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+.top span{
+    color: rgb(246, 126, 126);
+}

@@ -1,0 +1,24 @@
+.skill{
+    margin-bottom: 1rem;
+}
+.skill h4{
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+}
+.bar{
+    background-color: rgb(224, 225, 226);
+    height: 8px;
+    border-radius: 5rem;
+    position: relative;
+}
+.covered{
+    background-color: blue;
+    position: absolute;
+    top: 0;
+    height: 8px;
+    border-radius: 5rem;
+}
+.skill_content{
+    display: flex;
+    justify-content: space-between;
+}
