@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Navbar.css';
-import logo from '../Images/logo.png';
+import logo from '../images/logo.png';
 import { Link } from 'react-scroll';
 import resume from '../cv/Resume.pdf'
 
