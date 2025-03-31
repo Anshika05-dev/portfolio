@@ -1,5 +1,5 @@
 import React from 'react'
-import profile from '../Images/profile.jpg'
+import profile from '../images/profile.jpg'
 import './Intro.css'
 import { Link } from 'react-scroll'
 import Navbar from './Navbar'
